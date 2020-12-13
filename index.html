@@ -10,18 +10,18 @@
     <link rel="stylesheet" href="Assets/css/styles.css">
 
     <title>Jonathan Hammond - Home</title>
+    <script src="https://kit.fontawesome.com/8af330bb1e.js" crossorigin="anonymous"></script>
   </head>
-  <body class="d-flex h-100 text-center text-whhite bg-danger">
+  <body>
 
-    <!-- Container -->
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
       <!-- Header Start -->
-      <header class="mb-auto">
+      <header>
 
         <!-- Navigation Start -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Jonathan Hammond</a>
+           <h1><a class="navbar-brand" href="index.html">Jonathan Hammond</a></h1> 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -44,17 +44,61 @@
       </header>
       <!-- Header End -->
 
-      <main class="px-3">
-        <h1>Cover your page.</h1>
-        <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-        <p class="lead">
-          <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-        </p>
-      </main>
-      <footer class="mt-auto text-white-50">
-        <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
+      <div class="container">
+        <h2 class="text-light mt-5 mb-3">
+          Hello, welcome to my brain.
+        </h2>
+  
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Assets/Images/coffee.jpg" class="img-fluid d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>I love coffee</h5>
+                <p>But unfortunately my gut cannot currently handle it.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/Images/breakfast.jpg" class="img-fluid d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Breakfast is the best dish</h5>
+                <p>Though with a low-FODMAP diet, I start my day with rolled oats, peanut butter, cocoa and blueberries.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/Images/skulls.jpg" class="img-fluid d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>I like post-metal</h5>
+                <p>Apparently, because I love Deafheaven, which is a post-metal genre band.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+           
+            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+            <i class="far fa-arrow-alt-circle-left carousel-arrows" aria-hidden="true"> </i>
+            <!-- <span class="visually-hidden">Previous</span> -->
+          </a> 
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <i class="far fa-arrow-alt-circle-right carousel-arrows" aria-hidden="true"></i>
+            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+            
+            <!-- <span class="visually-hidden">Next</span> -->
+          </a>
+        </div>
+      </div>
+
+
+      <footer class="footer mt-auto py-3 bg-light sticky-top">
+        <div class="container">
+          <span class="text-muted">	&copy; Copyright Jonathan Hammond 2020-2021</span>
+        </div>
       </footer>
-    </div>
 
 
     <!-- Optional JavaScript -->

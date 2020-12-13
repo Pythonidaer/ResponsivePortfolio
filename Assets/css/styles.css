@@ -1,4 +1,75 @@
 body {
+    background: #094074;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
 
+/* HOME PAGE CAROUSEL */
+
+.carousel-item img {
+    opacity: .6;
+}
+
+.carousel-arrows {
+    font-size: 3rem;
+}
+
+.carousel-arrows {
+    padding: .5rem;
+    border-radius: 100%;
+}
+
+.carousel-caption,
+.carousel-arrows {
+    color: #ffebcd;
+    background: rgba(81, 41, 30, 0.9);
+}
+
+.carousel-caption {
+    padding: 1.5rem 2rem 2rem;
+}
+
+.carousel-indicators {
+    padding-bottom: 1rem;
+}
+
+/* HOME PAGE END */
+
+/* PORTFOLIO START */
+.p-15px {
+    padding: 30px;
+}
+
+.col-6 img {
+    padding: 2rem;
+}
+/* PORTFOLIO END */
+
+/* CONTACT START */
+.form {
+    background:  #ffebcd;
+}
+
+.btn-contact {
+    background: #094074;
+    color: #ffebcd;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+.btn-contact:hover,
+.btn-contact:focus {
+    background: #51291e;
+    color: #ffebcd;
+}
+
+/* CONTACT END */
+
+
+@media all and (max-width: 576px) {
+    .carousel-arrows {
+        font-size: 1.5rem;
+    }
 }
 
