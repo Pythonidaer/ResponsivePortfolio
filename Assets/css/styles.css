@@ -5,12 +5,16 @@ body {
     flex-direction: column;
 }
 
-/* HOME PAGE CAROUSEL */
-
-.carousel-item img {
-    /* opacity: .6; */
+/* NAVIGATION START */
+/* Make list items go on opposite end of logo */
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
 }
+/* NAVIGATION END */
 
+
+/* HOME PAGE START */
+/* CAROUSEL */
 .carousel-arrows {
     font-size: 3rem;
 }
@@ -33,14 +37,16 @@ body {
 .carousel-indicators {
     padding-bottom: 1rem;
 }
-
+/* CAROUSEL END */
 /* HOME PAGE END */
+
 
 /* PORTFOLIO START */
 .bg-brown {
     background: #51291e;
 }
 /* PORTFOLIO END */
+
 
 /* CONTACT START */
 .form {
@@ -59,22 +65,24 @@ body {
     background: #51291e;
     color: #ffebcd;
 }
-
 /* CONTACT END */
 
 
+/* MEDIA QUERIES */
+/* Target arrows for carousel to make them more visible. */
 @media all and (max-width: 576px) {
     .carousel-arrows {
         font-size: 1.5rem;
     }
 }
 
+/* Modify Container grid sizing per device size. */
 @media all and (min-width: 992px) {
     .container-grid {
-        /* background: red !important; */
         width: 80%;
     }
 
+    /* Even padding when image grid goes from 1 on a row to 2 */
     .row:first-of-type > .col-lg-6.pb-3:nth-child(2) {
         padding-top: 1rem;
     }
@@ -82,23 +90,40 @@ body {
 
 @media all and (max-width: 768px) {
     .container-grid {
-        /* background: red !important; */
         width: 50%;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .container-grid {
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .container-grid {
+        width: 65%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .container-grid {
+        width: 75%;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .container-grid {
+        width: 85%;
     }
 }
 
 @media all and (max-width: 400px) {
     .container-grid {
-        /* background: red !important; */
         width: 95%;
     }
 }
 
-
-
-.navbar-expand-lg .navbar-collapse {
-    justify-content: flex-end;
-}
 
 
 
