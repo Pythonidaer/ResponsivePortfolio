@@ -26,6 +26,10 @@ This repo is simply a homework assignment. Feel free to inspect the code and not
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse#devtools) provided the tools I needed to test my webpages for accessibility
 
 [MDN Documents](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-describedby_attribute) taught me how to utilzie the `aria-describedby` attribute!
+
+[web.dev](https://web.dev/external-anchors-use-rel-noopener/?utm_source=lighthouse&utm_medium=devtools) provided explanation why I should add `rel="noreferrer"` for added security to my `<a>` with `target="_blank"`!
+
+
   
 ## License
 I've chosen an MIT License. Do what you'd like with this material.
