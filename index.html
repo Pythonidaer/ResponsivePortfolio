@@ -7,23 +7,28 @@
     <meta name="description" content="Homework 2: Responsive Portfolio Homepage">
     <meta name="keywords" content="HTML, CSS, Accessibility, SEO, Bootstrap">
     <meta name="author" content="Jonathan Hammond">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="Assets/css/styles.css">
 
     <title>Jonathan Hammond - Home</title>
+
+    <!-- Font Awesome for Carousel Arrows -->
     <script src="https://kit.fontawesome.com/8af330bb1e.js" crossorigin="anonymous"></script>
   </head>
   <body>
-
 
       <!-- Header Start -->
       <header>
 
         <!-- Navigation Start -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-color">
           <div class="container-fluid">
+           <!-- LOGO -->           
            <a class="navbar-brand" href="index.html">Jonathan Hammond</a>
+            <!-- Hamburger Buttons for Smaller Devices -->          
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -46,77 +51,80 @@
       </header>
       <!-- Header End -->
 
+      <!-- About Start -->
       <div class="container">
-        <h1 class="text-light mt-5 mb-3">
+        <!-- About Title -->
+        <h1 class="mt-5 mb-3">
           About Me
         </h1>
-  
+        <!-- Carousel Start -->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <!-- Slide Indicators (tied to Bootstrap JavaScript) -->
           <ol class="carousel-indicators">
             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
             <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
           </ol>
           <div class="carousel-inner">
+            <!-- Image one -->
             <div class="carousel-item active">
               <img src="Assets/Images/coffee.jpg" class="img-fluid d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-md-block bg-eagle">
                 <h2>I love coffee</h2>
                 <p>But unfortunately my gut cannot currently handle it.</p>
               </div>
             </div>
+            <!-- Image two -->
             <div class="carousel-item">
               <img src="Assets/Images/breakfast.jpg" class="img-fluid d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-md-block bg-eagle">
                 <h2>Breakfast is the best dish</h2>
                 <p>Though with a low-FODMAP diet, I start my day with rolled oats, peanut butter, cocoa and blueberries.</p>
               </div>
             </div>
+            <!-- Image three -->
             <div class="carousel-item">
               <img src="Assets/Images/skulls.jpg" class="img-fluid d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-md-block bg-eagle">
                 <h2>I like post-metal</h2>
                 <p>Apparently, because I love Deafheaven, which is a post-metal genre band.</p>
               </div>
             </div>
           </div>
+          <!-- Previous Arrow -->
           <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" aria-label="Previous Image Button" data-bs-slide="prev">
-           
-            <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
             <i class="far fa-arrow-alt-circle-left carousel-arrows" aria-hidden="true"> </i>
-            <!-- <span class="visually-hidden">Previous</span> -->
           </a> 
+          <!-- Next Arrow -->
           <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" aria-label="Next Image Button" data-bs-slide="next">
             <i class="far fa-arrow-alt-circle-right carousel-arrows" aria-hidden="true"></i>
-            <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
-            
-            <!-- <span class="visually-hidden">Next</span> -->
           </a>
         </div>
-
-        <div class="row mt-4 text-light">
+        <!-- Carousel End -->
+        <!-- About Me Paragraphs -->
+        <div class="row mt-4">
+          <!-- About me - code - 1 -->
           <div class="col-sm-12 col-md-6">
             <p>I really enjoy working with code. As much as I despise its frustrating qualities, I also live for the feeling of reward when I unlock the secret of a computer. My vision is to become a full-stack web developer, and eventually a data scientist. I will eventually contribute to large scale solutions that effect millions of people.</p>
           </div>
+          <!-- About me - career background - 2 -->
           <div class="col-sm-12 col-md-6">
             <p>I grew up with a family of restaurant workers. I didn't learn the basics of IT until my mid twenties. Since then, I've commanded markets of computer sales, troubleshot Windows and Mac computers, provided Support for a Salesforce application and developed webpages for a Continuing Medical Education <em>(CME)</em> company. Visit my portfolio in the top navigation to see some of the projects I've worked on!</p>
           </div>
         </div>
       </div>
+      <!-- About End -->
 
-
-
-
-      <footer class="footer mt-auto py-3 bg-light sticky-top">
+      <!-- Footer Start -->
+      <footer class="footer mt-auto py-3 sticky-top">
         <div class="container text-center">
-          <span class="text-muted">	&copy; Copyright Jonathan Hammond 2020-2021</span>
+          <span>	&copy; Copyright Jonathan Hammond 2020-2021</span>
         </div>
       </footer>
-
+      <!-- Footer End -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>

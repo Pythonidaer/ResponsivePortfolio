@@ -7,8 +7,10 @@
     <meta name="description" content="Homework 2: Responsive Portfolio Portfolio Page">
     <meta name="keywords" content="HTML, CSS, Accessibility, SEO, Bootstrap">
     <meta name="author" content="Jonathan Hammond">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="Assets/css/styles.css">
 
     <title>Jonathan Hammond - Portfolio</title>
@@ -19,9 +21,11 @@
     <header>
 
       <!-- Navigation Start -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light navbar-color">
         <div class="container-fluid">
+          <!-- LOGO -->
           <a class="navbar-brand" href="index.html">Jonathan Hammond</a> 
+          <!-- Hamburger Buttons for Smaller Devices -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -36,7 +40,6 @@
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="index.html">About</a>
               </li>
-
             </ul>
           </div>
         </div>
@@ -45,81 +48,60 @@
     </header>
     <!-- Header End -->
 
-    <!-- Image Grid -->
-    <div class="container mx-auto bg-brown container-grid mt-5 mb-5">
-      <h1 class="text-light mt-4 px-lg-2">
+    <!-- Portfolio Grid -->
+    <div class="container mx-auto container-grid mt-5 mb-5 bg-myrtle">
+      <!-- Portfolio Title -->
+      <h1 class="mt-4 px-lg-2">
         Portfolio
       </h1>
-      <hr class="bg-light mx-lg-2">
+      <!-- Row 1 -->
+      <hr class="mx-lg-2">
       <div class="row">
         <div class="col-lg-6 py-3 d-flex justify-content-center">
-          <img src="Assets/Images/devwebsite.png" alt="A screenshot of my developed website, jonnovativebiz">
+          <a href="https://jonnovative.biz" target="_blank">
+            <img class="img-fluid" src="Assets/Images/devwebsite.png" alt="A screenshot of my developed website, jonnovativebiz">
+          </a>
         </div>
         <div class="col-lg-6 pb-3 d-flex justify-content-center">
-          <img src="Assets/Images/loislaneins.png" alt="The landing page of the Insurance website I designed">
+          <a href="https://loislaneins.com" target="_blank">
+            <img class="img-fluid" src="Assets/Images/loislaneins.png" alt="The landing page of the Insurance website I designed">
+          </a>
         </div>
       </div>
+      <!-- Row 2 -->
       <div class="row">
         <div class="col-lg-6 pb-3 d-flex justify-content-center">
-          <img src="Assets/Images/tastydanish.png" alt="The shoping page of a Shopify website I designed">
+          <a href="https://tastydanish.net" target="_blank">
+            <img class="img-fluid" src="Assets/Images/tastydanish.png" alt="The shoping page of a Shopify website I designed">
+          </a>
         </div>
         <div class="col-lg-6 pb-3 d-flex justify-content-center">
-          <img src="Assets/Images/aats.png" alt="The signup page of a medical event website I designed">
+          <a href="https://www.aats.org/aatsimis/AATSEvent/STARS/STARS.aspx" target="_blank">
+            <img class="img-fluid" src="Assets/Images/aats.png" alt="The signup page of a medical event website I designed">
+          </a>
         </div>
       </div>
+      <!-- Row 3 - single row -->
       <div class="row">
         <div class="col-lg-6 pb-3 d-flex justify-content-center">
-          <img src="Assets/Images/navigation.png" alt="A replica navigation with custom logo based off a minimalist website I found online and tried to imitate">
+          <a href="https://pythonidaer.github.io/Navigation/" target="_blank">
+            <img class="img-fluid" src="Assets/Images/navigation.png" alt="A replica navigation with custom logo based off a minimalist website I found online and tried to imitate">
+          </a>
         </div>
-        <!-- <div class="col-12 pb-3">
-          <img src="https://via.placeholder.com/350" alt="">
-        </div> -->
       </div>
     </div>
+    <!-- Portfolio End -->
 
-
-    <footer class="footer mt-auto py-3 bg-light sticky-top">
+    <!-- Footer Start -->
+    <footer class="footer mt-auto py-3 sticky-top">
       <div class="container text-center">
-        <span class="text-muted">	&copy; Copyright Jonathan Hammond 2020-2021</span>
+        <span>	&copy; Copyright Jonathan Hammond 2020-2021</span>
       </div>
     </footer>
+    <!-- Footer End -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>
-
-
-
-
-<!-- 
-
-      <div class="container">
-      <div class="row bg-light">
-        <div class="col-sm-12 col-md-12 col-lg-9">
-          <h1>
-            Hi
-          </h1>
-          <hr>
-          <div class="row">
-            <div class="img-fluid col-md-12 col-lg-6 d-flex justify-content-center">
-              <img src="https://via.placeholder.com/350" alt="">
-            </div>
-            <div class="img-fluid col-md-12 col-lg-6 d-flex justify-content-center">
-              <img src="https://via.placeholder.com/350" alt="">
-            </div>
-            <div class="img-fluid col-md-12 col-lg-6 d-flex justify-content-center">
-              <img src="https://via.placeholder.com/350" alt="">
-            </div>
-            <div class="img-fluid col-md-12 col-lg-6 d-flex justify-content-center">
-              <img src="https://via.placeholder.com/350" alt="">
-            </div>
-            <div class="img-fluid col-md-12 col-lg-6 d-flex justify-content-center">
-              <img src="https://via.placeholder.com/350" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
- -->

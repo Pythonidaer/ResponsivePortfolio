@@ -1,8 +1,25 @@
+/* 
+Color Palette:
+
+Midnight Green Eagle Green: #104f55;
+Transparent Eagle: rgba(16, 79, 85, 0.8);
+Myrtle Green: #01200f;
+Cambridge Blue: #9ec5ab;
+Dark Green: #01200f;
+Dark Jungle Green: #011502;
+*/
+
+/* GENERAL STYLING */
 body {
-    background: #094074;
+    background: #9ec5ab;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    color: #011502;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p {
+    color: #01200f;
 }
 
 /* NAVIGATION START */
@@ -10,6 +27,19 @@ body {
 .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
 }
+.navbar-color {
+    background: #01200f;
+
+}
+.navbar-color a {
+    color: #fff;
+    transition: all .3s;
+}
+.navbar-color a:hover,
+.navbar-color a:focus {
+    color: #9ec5ab;
+}
+
 /* NAVIGATION END */
 
 
@@ -18,54 +48,82 @@ body {
 .carousel-arrows {
     font-size: 3rem;
 }
-
 .carousel-arrows {
     padding: .5rem;
     border-radius: 100%;
 }
-
 .carousel-caption,
 .carousel-arrows {
-    color: #ffebcd;
-    background: rgba(81, 41, 30, 0.9);
+    background: #104f55;
+    color: #9ec5ab;
 }
-
 .carousel-caption {
     padding: 1.5rem 2rem 2rem;
 }
-
 .carousel-indicators {
     padding-bottom: 1rem;
+}
+.bg-eagle {
+    background: rgba(16, 79, 85, 0.8);
+}
+.bg-eagle h2,
+.bg-eagle p {
+    color: #fff;
 }
 /* CAROUSEL END */
 /* HOME PAGE END */
 
 
 /* PORTFOLIO START */
-.bg-brown {
-    background: #51291e;
+.bg-myrtle {
+    background: #32746d;
 }
 /* PORTFOLIO END */
 
 
 /* CONTACT START */
 .form {
-    background:  #ffebcd;
+    background:  #32746d;
 }
-
+label {
+    color: #9ec5ab;
+    font-weight: bold;
+    font-size: .9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+form > div.mb-3:nth-of-type(3) label,
+form > div.form-floating label {
+    padding-top: 1rem;
+}
 .btn-contact {
-    background: #094074;
-    color: #ffebcd;
+    background: #01200f;
+    color: #fff;
     font-weight: bold;
     transition: all .3s ease-in-out;
 }
-
 .btn-contact:hover,
 .btn-contact:focus {
-    background: #51291e;
-    color: #ffebcd;
+    background: #011502;
+    color: #9ec5ab;
 }
 /* CONTACT END */
+
+
+/* FOOTER START */
+footer {
+    background: #011502;
+
+}
+footer span {
+    color: #fff;
+    transition: all .3s;
+}
+footer span:hover,
+footer span:focus {
+    color: #9ec5ab;
+}
+/* FOOTER END */
 
 
 /* MEDIA QUERIES */
@@ -117,6 +175,13 @@ body {
         width: 95%;
     }
 }
+
+@media all and (max-width: 400px) {
+    .container-grid {
+        width: 100%;
+    }
+}
+
 
 
 

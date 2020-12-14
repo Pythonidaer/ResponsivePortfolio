@@ -7,8 +7,10 @@
     <meta name="description" content="Homework 2: Responsive Portfolio Contact Page">
     <meta name="keywords" content="HTML, CSS, Accessibility, SEO, Bootstrap">
     <meta name="author" content="Jonathan Hammond">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="Assets/css/styles.css">
 
     <title>Jonathan Hammond - Contact</title>
@@ -19,9 +21,11 @@
     <header>
 
       <!-- Navigation Start -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light navbar-color">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Jonathan Hammond</a> 
+          <!-- LOGO -->
+          <a class="navbar-brand" href="index.html">Jonathan Hammond</a>
+          <!-- Hamburger Buttons for Smaller Devices -->   
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -45,47 +49,54 @@
     </header>
     <!-- Header End -->
 
+    <!-- Contact Start -->
     <div class="container">
       <div class="row mt-5">
         <div class="col-sm-1 col-lg-2">
         </div>
         <div class="col-xs-12 col-sm-10 col-lg-8">
+          <!-- Form Start -->
           <form class="form p-4">
             <div class="mb-3">
+              <!-- Form Title -->
               <h1>
                 Contact
               </h1>
                <hr>
             </div>
+            <!-- Name Input -->
             <div class="mb-3 px-2">
               <label for="name" class="form-label">Name</label>
               <input type="text" class="form-control" id="name" placeholder="Name" aria-describedby="name">
             </div>
+            <!-- Email Input -->
             <div class="mb-3 px-2">
               <label for="email" class="form-label">Email</label>
               <input type="email" class="form-control" id="email" placeholder="Email" aria-describedby="email">
             </div>
+            <!-- Message Box -->
             <div class="form-floating px-2">
               <label for="floatingTextarea">Message</label>
               <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" rows="5" ></textarea>
-
             </div>
+            <!-- Submit Button -->
             <button type="submit" class="btn btn-contact mt-3 mb-2 py-3 px-4 rounded-0" aria-label="submit">Submit</button>
           </form>
+          <!-- Form End -->
         </div>
         <div class="col-sm-1 col-lg-2">
         </div>
       </div>
     </div>
+    <!-- Contact End -->
 
-
-    <footer class="footer mt-auto py-3 bg-light sticky-top">
+    <!-- Footer Start -->
+    <footer class="footer mt-auto py-3 sticky-top">
       <div class="container text-center">
-        <span class="text-muted">	&copy; Copyright Jonathan Hammond 2020-2021</span>
+        <span>	&copy; Copyright Jonathan Hammond 2020-2021</span>
       </div>
     </footer>
-
-
+    <!-- Footer End -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
