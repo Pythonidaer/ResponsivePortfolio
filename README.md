@@ -31,9 +31,9 @@ This repo is simply a homework assignment. Feel free to inspect the code and not
 I've chosen an MIT License. Do what you'd like with this material.
 
 #### The Proof
-![Google Lighthouse Perfect Score](assets/images/lighthouse.png)
+![Google Lighthouse Perfect Score](Assets/Images/lighthouse.png)
 
 #### The Website
-![About](assets/images/about.png)
-![Portfolio](assets/images/portfolio.png)
-![Contact](assets/images/contact.png)
+![About](Assets/Images/about.png)
+![Portfolio](Assets/Images/portfolio.png)
+![Contact](Assets/Images/contact.png)
