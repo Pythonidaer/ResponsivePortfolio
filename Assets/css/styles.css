@@ -18,7 +18,7 @@ body {
     color: #011502;
 }
 
-h1, h2, h3, h4, h5, h6, hr, p {
+h1, h2, h3, h4, h5, h6, p {
     color: #01200f;
 }
 
@@ -77,6 +77,16 @@ h1, h2, h3, h4, h5, h6, hr, p {
 /* PORTFOLIO START */
 .bg-myrtle {
     background: #32746d;
+}
+.bg-myrtle h1 {
+    color: #fff;
+}
+hr {
+    background: #fff;
+}
+a:hover img,
+a:focus img {
+    opacity: .8;
 }
 /* PORTFOLIO END */
 
