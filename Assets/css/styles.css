@@ -32,12 +32,12 @@ h1, h2, h3, h4, h5, h6, hr, p {
 
 }
 .navbar-color a {
-    color: #fff;
+    color: #fff !important;
     transition: all .3s;
 }
 .navbar-color a:hover,
 .navbar-color a:focus {
-    color: #9ec5ab;
+    color: #9ec5ab !important;
 }
 
 /* NAVIGATION END */
