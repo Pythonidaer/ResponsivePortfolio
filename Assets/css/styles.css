@@ -199,6 +199,7 @@ footer span:focus {
 @media all and (max-width: 400px) {
     .container-grid {
         width: 100%;
+        margin: 0 !important;
     }
 }
 
