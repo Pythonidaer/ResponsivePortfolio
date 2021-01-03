@@ -1,4 +1,4 @@
-# ResposivePortfolio
+# ResponsivePortfolio
 *My Responsive Portfolio Website made with Bootstrap*
 
 [View Deployed Application Here.](https://pythonidaer.github.io/ResposivePortfolio/)
