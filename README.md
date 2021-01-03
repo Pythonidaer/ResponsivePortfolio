@@ -1,7 +1,7 @@
 # ResponsivePortfolio
 *My Responsive Portfolio Website made with Bootstrap*
 
-[View Deployed Application Here.](https://pythonidaer.github.io/ResposivePortfolio/)
+[View Deployed Application Here.](https://pythonidaer.github.io/ResponsivePortfolio/)
 
 ## Installation
 1. Clone repository to your local device
